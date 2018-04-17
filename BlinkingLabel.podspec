@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BlinkingLabel.'
+  s.summary          = 'A subclass on UILabel that provides a blink.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.'
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=<NULL>/BlinkingLabel'
+  s.homepage         = 'https://github.com/sillyback/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=<NULL>' => 'chung.nguyenduc@nhatcuong.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=<NULL>/BlinkingLabel.git', :tag => s.version.to_s }
+  s.author           = { 'Sillyback' => 'chung.nguyenduc@nhatcuong.com' }
+  s.source           = { :git => 'https://github.com/sillyback/BlinkingLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
